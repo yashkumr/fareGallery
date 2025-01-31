@@ -45,6 +45,9 @@ app.use("*", function (req, res) {
   });
 
 
+  app.use("/", (req, res) => {
+    res.send("welcome");
+})
 
 app.use("/api/v1/otp", (req, res) => {
     res.send("welcome");
