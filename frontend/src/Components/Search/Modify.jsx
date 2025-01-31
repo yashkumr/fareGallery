@@ -2,6 +2,8 @@ import React, { useEffect, useMemo, useState } from 'react'
 import DatePicker from "react-multi-date-picker";
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import axios from "axios";
+import { FaPlus } from "react-icons/fa6";
+import { FiMinus } from "react-icons/fi";
 function Modify() {
 
     const [value, setValue] = useState(new Date());
@@ -378,7 +380,7 @@ function Modify() {
                                                                     setAdults((prev) => (prev > 1 ? prev - 1 : prev));
                                                                 }}
                                                             >
-                                                                <i className="fa-solid fa-minus"></i>
+                                                               <FiMinus />
                                                             </div>
                                                             <div
                                                                 className="adult_add adult_add_flight"
@@ -386,7 +388,7 @@ function Modify() {
                                                                     setAdults((prev) => prev + 1);
                                                                 }}
                                                             >
-                                                                <i className="fa-solid fa-plus"></i>
+                                                                <FaPlus />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -405,7 +407,7 @@ function Modify() {
                                                                     setChild((prev) => (prev > 0 ? prev - 1 : prev));
                                                                 }}
                                                             >
-                                                                <i className="fa-solid fa-minus"></i>
+                                                               <FiMinus />
                                                             </div>
                                                             <div
                                                                 className="add_child_add add_child_add_flight"
@@ -413,7 +415,7 @@ function Modify() {
                                                                     setChild((prev) => (prev < 10 ? prev + 1 : prev));
                                                                 }}
                                                             >
-                                                                <i className="fa-solid fa-plus"></i>
+                                                                <FaPlus />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -432,7 +434,7 @@ function Modify() {
                                                                     setInfant((prev) => (prev > 0 ? prev - 1 : prev));
                                                                 }}
                                                             >
-                                                                <i className="fa-solid fa-minus"></i>
+                                                              <FiMinus />
                                                             </div>
                                                             <div
                                                                 className="add_inf_add add_inf_add_flight"
@@ -440,7 +442,7 @@ function Modify() {
                                                                     setInfant((prev) => (prev < 2 ? prev + 1 : prev));
                                                                 }}
                                                             >
-                                                                <i className="fa-solid fa-plus"></i>
+                                                               <FaPlus />
                                                             </div>
                                                         </div>
                                                     </div>
