@@ -1,0 +1,554 @@
+.close_btt {
+    display: none;
+}
+
+.footer_bg p {
+    font-size: 13px;
+}
+.rmdp-arrow-container{
+    width: 24px !important;
+    height: 24px !important;
+    color: var(--color-white);
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.rmdp-left i, .rmdp-right i{
+    margin: 0px !important;
+    padding: 0px !important;
+    font-size: 14px !important; 
+}
+.rmdp-arrow{
+    width: 6px !important;
+    height: 6px !important;
+    border-color: white !important;
+}
+.form_search_c input{
+    outline: none !important;
+    border: none !important;
+    width: 100%;
+}
+.rmdp-day.rmdp-selected span:not(.highlight){
+    background-color: var(--color-dark) !important;
+}
+.className_holdd  {
+    font-size: 12px !important;
+    opacity: 0.7;
+}
+.booking_flight_d{
+    padding: 20px;
+    padding-top: 15px;
+}
+.booking_flight_d .pop_dess2{
+    font-size: 11px;
+}
+@media screen and (max-width: 1400px) {
+    .common_padding {
+        padding: 0px 25px;
+    }
+    .ph_f{
+        font-size: 13px;
+    }
+    .title_fl {
+        font-size: 13px;}
+        .font_in p {
+            font-size: 12px;}
+            .lay_over_c span{
+                width: 60%;
+                font-size: 9px;
+            }
+            .flight-head p{
+                font-size: 10px;
+            }
+            .view_detail_a{
+                font-size: 10px;
+            }
+            .booking_title{
+                flex-wrap: wrap;
+            }
+            .num_de{
+                font-size: 12px;
+            }
+            .num_de1{
+                font-size: 10px;
+            }
+            .price_s {
+                font-size: 16px;}
+                .pass_de_cont{
+                    font-size: 13px;
+                }
+                .pass_de_cont ul li{
+                    font-size: 11px;
+                }
+                .pass_de_cont ul li{
+                    margin: 6px 0px;
+                }
+                .flight_pop_gr{
+                    font-size: 10px;
+                }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .des_grdd {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .proo_grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .common_padding {
+        padding: 0px 12px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .pop_main{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 992px) {
+    .nav-links-custt {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.7);
+        display: none;
+    }
+
+    .nav-links-custt_active {
+        display: block;
+    }
+
+    .nav-links-custt ul {
+        flex-direction: column;
+        background-color: var(--color-dark);
+        height: 100%;
+        width: 65%;
+        padding: 60px 0px;
+    }
+
+    .ph_p {
+        display: none;
+    }
+
+    .nav_links_hh {
+        display: flex;
+    }
+
+    .menu_linnkk {
+        background-color: var(--color-dark);
+        border: none;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu_linnkk img {
+        height: 22px;
+        width: auto;
+    }
+
+    .proo_grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .close_btt {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background-color: var(--color-white);
+        width: 30px;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form_h_semi222 {
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .form_search_us {
+        padding: 0px 15px;
+    }
+
+    .form_search_c {
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+
+    .form_search_us_m:nth-child(even) .form_search_c {
+        border-right: none;
+    }
+
+    .form_search_us_m:nth-child(odd) .form_search_c {
+        padding-left: 0px;
+    }
+
+    .des_grdd {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .des_orrr {
+        order: 2;
+    }
+
+    .pri_aall {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0px 6px;
+    }
+
+    .pri_aall a {
+        font-size: 11px;
+    }
+
+    .connect_cont {
+        border-radius: 0px 0px 10px 10px;
+    }
+    .pop_main{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 568px) {
+
+    p,
+    li {
+        font-size: 13px;
+    }
+
+    .small_de {
+        font-size: 10px;
+    }
+
+    .ab_main_m {
+        padding-left: 15px !important;
+    }
+    .pop_main{
+        width: 98%;
+        padding: 20px 13px;
+        padding-top: 0px;
+    }
+    .thankyou_img{
+        width: 75%;
+    }
+    .fell_free_thankyou {
+        font-size: 14px;
+    }
+    .social_thankyo li a {
+        width: 35px;
+        font-size: 16px;
+        height: 35px;}
+    .book_title_thank{
+        font-size: 19px;
+    }
+    .fell_free_thankyou b{
+        font-size: 15px;
+        margin-top: 7px;
+        display: inline-flex;
+    }
+    .form-main {
+        padding: 20px;
+    }
+    .pop_headd{
+        font-size: 11px;
+    }
+    .nav-logo img {
+        height: 41px;
+    }
+
+    .air_slider {
+        padding-top: 12px;
+        margin-top: 12px;
+    }
+
+    .form_search_c input {
+        font-size: 15px;
+    }
+
+    .hero_air {
+        background-image: url("/public/imgs/bg-airlines-mob.png");
+    }
+
+    .proo_grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .select_pprr{
+        font-size: 17px;
+    }
+    .select_ff{
+        font-size: 13px;
+        padding: 9px 12px;
+    }
+    .control_h44{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .thank_bgg{
+        padding: 25px 10px;
+    }
+    .backhome{
+        font-size: 15px;
+    }
+    .select_all_pop{
+        padding: 16px 20px;
+    }
+    .form_search_c button {
+        font-size: 13px;
+        height: 52px;
+    }
+
+    .proo_container {
+        border: none !important;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+        padding: 10px 0px;
+    }
+
+    .font_9 {
+        font-size: 9px;
+    }
+
+    .ph_p img {
+        height: 26px;
+    }
+
+    .proo_img img {
+        height: 70px;
+    }
+
+    .form_search_c button img {
+        height: 17px;
+    }
+
+    .num_prr {
+        width: 36px;
+        height: 36px;
+    }
+
+    .pass_numm1 {
+        font-size: 16px;
+    }
+
+    .tabb_bt button {
+        font-size: 11px;
+    }
+
+    .tabb_bt button img {
+        height: 12px;
+    }
+
+    .check_boxx {
+        flex-wrap: wrap;
+        gap: 3px 15px;
+    }
+
+    .vide_bg {
+        display: none;
+    }
+
+    .hero_h::after {
+        border-radius: 50px 50px 0px 0px;
+    }
+
+    .last_tt {
+        font-size: 14px;
+    }
+
+    .hero_h {
+        padding: 15px 0px;
+        padding-top: 30px;
+        border-radius: 30px 30px 0px 0px;
+        margin: auto;
+        margin-top: -4rem;
+    }
+
+    .hero_hh_mobl {
+        display: block;
+    }
+
+    .hero_hh_mobl video {
+        object-fit: cover;
+        width: 100%;
+        height: 250px;
+    }
+
+    .banner_ttt {
+        font-size: 20px;
+        line-height: 33px;
+    }
+
+    .margin_tt {
+        margin-top: 18px !important;
+    }
+
+    .titt_t {
+        font-size: 22px;
+    }
+
+    .font_14 {
+        font-size: 11px;
+    }
+
+    .img_aa {
+        width: 168px;
+    }
+
+    .des_ww {
+        font-size: 12px;
+    }
+
+    .tie_des {
+        font-size: 20px;
+    }
+
+    .line_ss {
+        width: 50%;
+    }
+
+    .img_aa img {
+        height: 155px;
+    }
+
+    .destination_containerr .font_13 {
+        font-size: 11px;
+    }
+
+    .ab_imgss img {
+        width: 180px;
+        height: 170px;
+    }
+
+    .menu_linnkk img {
+        height: 18px;
+    }
+
+    .who_tt {
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    .common_title1 {
+        padding: 7px 15px;
+    }
+
+    .img_aa {
+        width: 158px;
+    }
+
+    .img_aa img {
+        height: 135px;
+    }
+
+    .footer_ul a {
+        font-size: 12px;
+    }
+
+    .footer_ul li {
+        margin: 2px 0px;
+    }
+
+    .footer_title {
+        font-size: 14px;
+    }
+
+    .hr_h {
+        margin: 20px 0px;
+    }
+
+    .tit_ff {
+        font-size: 13px;
+    }
+
+    .tit_ff img {
+        height: 21px;
+        display: none;
+    }
+
+    .flex_ff {
+        flex-wrap: wrap;
+        gap: 1px 10px !important;
+    }
+
+    .form_in button {
+        font-size: 13px;
+    }
+
+    .air_logo img {
+        width: 83px;
+    }
+
+    .menu_linnkk {
+        width: 38px;
+        height: 38px;
+    }
+
+    .air_slider2 .air_logo img {
+        width: 100px;
+        height: 46px;
+    }
+    .bg_search_cheap{
+        padding: 20px;
+    }
+    .search_tt{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .search_country {
+        font-size: 16px;}
+        .dates_all{
+            font-size: 11px;
+            padding: 13px 5px;
+        }
+        .num_n{
+            font-size: 15px;
+        }
+        .num_n img {
+            height: 26px;}
+            .search_contt {
+                flex-direction: column;
+                justify-content: center !important;
+            }
+            .search_bb{
+                text-align: center;
+            }
+            .loader{
+                scale: 1;
+                margin: 3rem 0px;
+            }
+            .pop_main_bo {
+                gap: 5px;
+            }
+            .num_de{
+                font-size: 10px;
+            }
+            .num_de1{
+                font-size: 9px;
+            }
+            .pop_stopss{
+                margin: 0px 5px;
+            }
+            .flight_pop_gr{
+                font-size: 9px;
+            }
+}
+
+@media screen and (max-width: 376px) {
+    .ab_main_m {
+        padding-left: 15px !important;
+    }
+}
