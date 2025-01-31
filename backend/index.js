@@ -49,7 +49,7 @@ app.use("*", function (req, res) {
     res.send("welcome");
 })
 
-app.use("/api/v1/otp", (req, res) => {
+app.use("   ", (req, res) => {
     res.send("welcome");
 })
 const PORT = process.env.PORT || 8080;
