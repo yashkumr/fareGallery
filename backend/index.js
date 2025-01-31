@@ -23,7 +23,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 
-const buildpath = path.join(__dirname, "../client/dist")
+const buildpath = path.join(__dirname, "../frontend/dist")
 app.use(express.static(buildpath));
 
 //middleware
@@ -41,7 +41,7 @@ app.use("/api/v1/otp", otpRoutes);
 app.use("/api/v1/auth", authRoutes);
 
 app.use("*", function (req, res) {
-    res.sendFile(path.join(__dirname, "../client/dist/index.html"));
+    res.sendFile(path.join(__dirname, "../frontend/dist/index.html"));
   });
 
 
