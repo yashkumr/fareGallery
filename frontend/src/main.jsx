@@ -1,6 +1,4 @@
-import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-
 import "./assets/css/global.css"
 import "./assets/css/flight.css"
 import "./assets/css/booking.css"
